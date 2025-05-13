@@ -844,3 +844,19 @@ body {
   opacity: 1;
   text-align: left;
 }
+
+.headline-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.headline-row h1 {
+    margin: 0;
+    flex: 1;
+}
+.headline-row img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+}
