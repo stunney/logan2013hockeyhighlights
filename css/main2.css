@@ -18,6 +18,14 @@ h1, h2 {
 .highlight {
     margin-bottom: 32px;
 }
+.highlight img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+    display: block;
+}
 video {
     display: block;
     margin: 12px 0 8px 0;
